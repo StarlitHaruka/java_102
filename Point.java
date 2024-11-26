@@ -27,22 +27,21 @@ public class Point {
 	
 	//Practice - center of mass
 	public static Point centerOfMass(Point[] points) {
-            
-            double xTotal = 0;
-            double yTotal = 0;
-            
-            for(int i = 0; i < points.length; i++) {
-                xTotal += points[i].x;
-                yTotal += points[i].y;
-                
-            }
-            return new Point(xTotal/points.length, yTotal/points.length);
-        }
-        
-		public Point rotate90(Point p, double theta) {
-
-			Point rotatedPoint = new Point(x, y);
-			return rotatedPoint;
-		}
-        
+	    
+	    double xTotal = 0;
+	    double yTotal = 0;
+	    
+	    for(int i = 0; i < points.length; i++) {
+	        xTotal += points[i].x;
+	        yTotal += points[i].y;
+	        
+	    }
+	    return new Point(xTotal/points.length, yTotal/points.length);
+	}
+	
+	public double angle(Point ) {
+	    
+	}
+	
+	
 }
